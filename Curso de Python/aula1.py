@@ -61,13 +61,45 @@ saida: Eu edore comide ceseire
 # for letra in 'Google':
 #     print(letra)
 
-compra_confirmada= True
-dados_compra= "Compra no valor de R$ 12,50 e entrega confirmada"
+# compra_confirmada= True
+# dados_compra= "Compra no valor de R$ 12,50 e entrega confirmada"
 
-for enviar in range(3):
-    if compra_confirmada:
-        print(dados_compra)
-        print('Detalhes enviado para o seu email')
-        break
-    else:
-        print('Falha na compra')
+# for enviar in range(3):
+#     if compra_confirmada:
+#         print(dados_compra)
+#         print('Detalhes enviado para o seu email')
+#         break
+#     else:
+#         print('Falha na compra')
+
+# for loop nested
+#   outer loop = loop de fora
+#   inner loop = loop de dentro
+
+# for numero1 in range(5):
+#     print(f'produto {numero1}')
+#     for numero2 in range(5):
+#         print(f'{numero2}')
+
+# Modificar a palavra FANTASTICO para F A N T A S T I C O
+
+# palavra= 'Fantastico'
+# for spaco in palavra:
+#     print(f' {spaco}' , end='')
+
+# Criar um retangulo em código 6x6 usando @
+# @@@@@@
+# @@@@@@
+# @@@@@@
+# @@@@@@
+# @@@@@@
+# @@@@@@
+
+linhas= 6
+colunas=6
+simbolo='@'
+
+for l in range(linhas):
+    for c in range(colunas):
+        print(simbolo, end='')
+    print()    
