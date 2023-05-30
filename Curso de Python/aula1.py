@@ -95,11 +95,23 @@ saida: Eu edore comide ceseire
 # @@@@@@
 # @@@@@@
 
-linhas= 6
-colunas=6
-simbolo='@'
+# linhas= 6
+# colunas=6
+# simbolo='@'
 
-for l in range(linhas):
-    for c in range(colunas):
-        print(simbolo, end='')
-    print()    
+# for l in range(linhas):
+#     for c in range(colunas):
+#         print(simbolo, end='')
+#     print()    
+
+
+# cidades=['Rio de Janeiro', 'São Paulo', 'Porto Alegre']
+
+# # .append insere um item no final da lista
+# # .romeve - remove um item da lista
+# # .insert - insere um item na posição correta, exemplo: cidades.insert(1,'Floripa')
+# # .sort - organiza em ordem alfabética
+
+
+
+# print(cidades)
